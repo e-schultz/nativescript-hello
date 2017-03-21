@@ -2,7 +2,7 @@
 ls -la
 which node
 
-node -version
+node -v
 npm -version
 
 # Install NativeScript CLI
