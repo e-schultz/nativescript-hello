@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-echo "******** Install NVM *************"
+echo "******** Install node LTS *************"
 npm install -g n
-n lts 
+n 6.9.1 
 node -v
+
 # Install NativeScript CLI
 echo "******** Install NativeScript CLI *************"
 npm install -g nativescript
