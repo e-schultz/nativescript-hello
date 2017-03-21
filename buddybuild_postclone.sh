@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+nvm ls
 
 # Install NativeScript CLI
 echo "******** Install NativeScript CLI *************"
