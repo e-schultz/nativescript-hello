@@ -1,12 +1,8 @@
 #!/usr/bin/env bash
 echo "******** Install NVM *************"
-
-git clone https://github.com/riywo/ndenv ~/.ndenv
-echo 'export PATH="$HOME/.ndenv/bin:$PATH"' >> ~/.bash_profile
-echo 'eval "$(ndenv init -)"' >> ~/.bash_profile
-exec $SHELL -l
-ndenv install v6.10.0
-ndenv rehash
+npm install -g n
+n lts 
+node -v
 # Install NativeScript CLI
 echo "******** Install NativeScript CLI *************"
 npm install -g nativescript
