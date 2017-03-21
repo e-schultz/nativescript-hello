@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
-nvm ls
+ls -la
+which node
+
+node -version
+npm -version
 
 # Install NativeScript CLI
 echo "******** Install NativeScript CLI *************"
