@@ -8,7 +8,7 @@
 android {  
   defaultConfig {  
     generatedDensities = []
-    applicationId = "__PACKAGE__" 
+    applicationId = "io.rangle.sunrider.mobile" 
     
     //override supported platforms
     // ndk {

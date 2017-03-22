@@ -15,3 +15,5 @@ tns --version
 # Prepare NativeScript Project
 echo "******** Prepare NativeScript iOS Project *************"
 tns prepare ios
+echo "******** Prepare NativeScript Android Project *************"
+tns prepare android

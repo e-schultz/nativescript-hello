@@ -8,5 +8,6 @@ import { Component } from "@angular/core";
   `
 })
 export class AppComponent {
+  title:string='My Title'
   // Your TypeScript logic goes here
 }
